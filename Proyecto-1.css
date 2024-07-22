@@ -1,0 +1,373 @@
+body {
+    background-color: #ffffff;
+  }
+  
+  /* Typography */
+  h1 {
+    font-size: 2.5rem;
+    color: #000000;
+    margin: 0;
+  }
+  
+  .subtitle,
+  nav a {
+    font-size: 1rem;
+    color: #000000;
+    text-transform: uppercase;
+  }
+  
+  
+  .container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .container-nav {
+    display: flex;
+    justify-content: end;
+    align-items: normal;
+  }
+  .navbus{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end
+  }
+  .navlista{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end
+  }
+  
+  header {
+    background-color: #ffffff;
+    padding: 0.8em 0;
+    box-shadow: 2px 2px 10px #f1f6f9;
+  }
+  
+  /* navbar */
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 2em;
+  }
+  
+  nav a {
+    text-decoration: none;
+  }
+  
+  nav a:hover,
+  nav a:focus {
+    color: #696666;
+  }
+  
+  @media (max-width: 640px) {
+    .container {
+      text-align: center;
+    }
+  
+    .container-nav {
+      flex-direction: column;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav li {
+      margin: 0.8em 0;
+    }
+  }
+.botonesredes{
+    stroke-dashoffset: 0cap;
+
+}
+.colorboton{
+    background-color: #0090b3;
+}
+.botones2{background-color: #ffffff;}
+.lowerheader{
+    background-color: #182951;
+    color: #ffffff;
+}
+.divbf{
+background-color: #D6B15F;
+color: #ffffff;
+}
+.divdse{
+    background-color: #0034A0;
+    color: #ffffff;
+}
+.divdspc{
+    background-color: #8dc641;
+    color: #ffffff;
+}
+.divaii{
+  width: 500;
+    background-color: #182951;
+    color: #ffffff;
+}
+.conozca{
+    background-color: #D6B15F;
+    color: #ffffff;
+}
+
+.pie{
+    background-color: #182951;
+    color: #ffffff;
+}
+.botonpie{
+    background-color: #182951;
+    color: #ffffff;
+}
+.buscaroficina{
+    background-color: #cccbcb;
+}
+
+.cuadradiv{display: flex;
+flex-direction: row;
+}
+.divbf{
+  
+  height: 200;
+  display: flex;
+  flex-direction: column;
+}
+.divse{
+  height: 200;
+  display: flex;
+  flex-direction: column;
+}
+.divpc{
+  height: 200;
+  display: flex;
+  flex-direction: column;
+}
+.divaii{
+  display: flex;
+  flex-direction: column;
+}
+.pie{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  float: left;
+}
+.divfoot2{
+  display: flex;
+  flex-direction: column;
+}
+.botonespie{
+  display: flex;
+  flex-direction: row;
+
+
+}
+.copy{
+
+}
+.containerlower {
+  width: 100%;
+
+  margin: 0 auto;
+  background-color: #182951;
+}
+
+.container-navlower {
+  display: flex;
+  justify-content: end;
+  align-items: normal;
+}
+.navbuslower{
+  display: flex;
+  justify-content: end;
+  align-items: flex-end
+}
+.navlistalower{
+  display: flex;
+  justify-content: end;
+  align-items: flex-end
+}
+.collapsible {
+  background-color: #182951;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #ec6a3b;
+   padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  color: #ffffff;
+}
+.collapse{
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+.collapsediv{
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  background-color: #e05726;
+}
+.containerlower {
+  width: 100%;
+
+  margin: 0 auto;
+  background-color: #182951;
+}
+
+.divvideos{
+  display: flex;
+  flex-direction: row;
+}
+.titlevideo{
+  text-align: center;
+}
+.btnvideo{
+  flex-direction: column;
+  display: flex;
+  justify-items: flex-end;
+  height: 123px;
+}
+.triplediv{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.divavisos{
+background-color: #c8cfd4;
+}
+.cuadradiv{
+    display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.divavisos{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  text-align: center;
+}
+
+.divEstrategias{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.tituloconozca{
+  text-align: center;
+}
+.btonvideo{
+  height: 40px;
+  float: right;
+  margin-right: 50px;
+}
+.botones{
+  background-color: #cccbcb ;
+  color:#ffffff ;
+}
+.enlaces{
+  color: #ffffff;
+}
+.laestrategia{
+  background-color: #cccbcb ;
+}
+.estraboton{
+  background-color: #696666;
+  align-items: flex-end;
+  float: right;
+  margin-right: 50px;
+}
+/*-------------------------------------------------*/
+
+
+/*-------------------------------------------------*/
+.main{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 70%;
+  margin-right: 30px;
+  
+}
+.sidesobrenos{
+  display: flex;
+  flex-direction: column;
+}
+.formulario{
+  background-color: #c8cfd4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tituloform{
+  display: flex;
+  justify-content: center
+
+}
+body{
+  font-family: "Oxygen";
+}
+.colorazulito{
+  color: #2E7F87;
+}
+.celestito{
+  color: #0090b3;
+}
+.fechas{
+  color: #D6B15F;
+}
+.flotar1{
+  float: left;
+  width: 500px;
+}
+.flotar2{
+  float: left;
+  width: 700px;
+}
+.hovers{
+  background-color: #ff0000; /* Green */
+  border: none;
+  color: #ff0000;
+  padding: 16px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+  .button5 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+  
+  }
+  
+  .button5:hover {
+    background-color: #575757;
+    color: rgb(255, 255, 255);
+ }
+ .conozcatitulo{
+  display: flex;
+  justify-content: center;
+ }
